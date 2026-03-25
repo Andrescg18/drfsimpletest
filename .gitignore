@@ -1,0 +1,19 @@
+# Entorno virtual
+venv/
+
+# Archivos pyc
+*.pyc
+__pycache__/
+
+# Base de datos local
+db.sqlite3
+
+# Archivos de logs
+*.log
+
+# Carpeta migrations (si quieres ignorarlas, opcional)
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Otros
+*.env
